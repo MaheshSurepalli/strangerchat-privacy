@@ -1,134 +1,118 @@
-Privacy Policy for Stranger Chat
+# Privacy Policy for Stranger Chat
 
-Last updated: 11/14/2025
+Last updated: April 27, 2026
 
-1. Introduction
+## 1. Introduction
 
-Stranger Chat (“the App”) provides anonymous 1-to-1 chat between two users.
-No registration, login, or personal identification is required to use the app.
+Stranger Chat ("the App") provides anonymous 1-to-1 chat between two users. No registration, login, or personal identification is required to use the app.
 
-This Privacy Policy explains what information is processed by the App and how it is handled.
-We are committed to protecting your privacy and ensuring a safe experience.
+This Privacy Policy explains what information is processed by the App and how it is handled. We are committed to protecting your privacy and ensuring a safe experience.
 
-2. Information We Do Not Collect
+## 2. Information We Do Not Require
 
-We do NOT collect, store, or require:
+We do not require:
 
-Name
+- Name
+- Email address
+- Phone number
+- Contact list
+- Uploaded photos
+- Precise location
+- Payments or financial data
 
-Email address
+We do not send chat message text, direct message content, raw user IDs, partner IDs, exact interests, or revealed names to analytics or advertising services.
 
-Phone number
+## 3. Information We Process To Provide The App
 
-Contact list
+The App uses a WebSocket-based communication system to connect random users for real-time chat. The following data is processed to run the chat experience:
 
-Uploaded photos
+- A locally generated anonymous app ID
+- Emoji avatar
+- Messages exchanged during an active stranger chat session
+- Typing indicators
+- Matchmaking status
+- Session timestamps
+- Connection and disconnection events
+- Selected interests, if you choose interests before starting a chat
 
-Location (GPS or network)
+Anonymous stranger chat messages are not stored as regular message history. They exist only during the active session and disappear when the session ends.
 
-Device identifiers
+### Direct Messages Between Mutual Favorites
 
-Advertising ID
+If two users mutually save each other as favorites, they may exchange direct messages. Direct messages are stored on our servers solely to provide the direct messaging feature.
 
-Payments or financial data
+## 4. Data Retention
 
-You can use the App completely anonymously.
+Anonymous stranger chat messages are not stored. They exist only in server memory during the session and are destroyed when the session ends.
 
-3. Information We Process Temporarily
+Direct messages between mutual favorites are retained for up to 30 days from the date they are sent, then permanently deleted. Direct messages are also deleted when either user removes the other from favorites.
 
-The App uses a WebSocket-based communication system to connect two random users for real-time chat.
+No logs are intended to contain chat message text or user identity information.
 
-The following data is processed only in memory and NOT stored:
+## 5. How We Use Data
 
-Randomly generated user ID (session-only)
+Data is used only to:
 
-Emoji avatar (session-only)
+- Pair users for anonymous chat
+- Deliver messages in real time
+- Show typing indicators
+- Manage connection, disconnection, and reconnection state
+- Support mutual favorites and direct messages
+- Understand aggregate app usage and reliability
+- Display ads
+- Send push notifications when enabled
 
-Messages exchanged between the two users (real-time only)
+We do not sell chat content or user identity information.
 
-Typing indicators
+## 6. Third-Party Services
 
-Matchmaking status
+The App uses the following third-party services:
 
-Session timestamps
+### Firebase Analytics
 
-Connection/disconnection events
+The App uses Firebase Analytics to understand aggregate app usage, such as screen views, queue joins, chat pairings, message counts, game usage, referrals, notification permission status, and notification opens.
 
-We do not store message history.
-Messages disappear as soon as the session ends or the user leaves the chat.
-Nothing is saved on the server or in any database.
+Analytics events use counts, buckets, booleans, and general event names only. Analytics events do not include raw chat messages, direct message content, raw user IDs, partner IDs, exact interests, revealed names, contact details, or precise location.
 
-4. Data Retention
+### Google AdMob
 
-We do not retain or save any personal data or chat messages.
+The App uses Google AdMob to display ads. The Google Mobile Ads SDK may process device identifiers, advertising identifiers, coarse device information, ad interactions, and diagnostics for ad delivery, measurement, fraud prevention, and compliance, subject to your device settings and Google policies.
 
-Once the chat ends or a user disconnects:
+We do not send chat message text, direct message content, raw user IDs, partner IDs, exact interests, or revealed names to AdMob.
 
-The session is destroyed
+### Expo Notifications
 
-All temporary data is removed from server memory
+The App uses Expo notifications to send push notifications when notification permission is granted and notifications are enabled.
 
-No logs contain message content or user identity
+### Fly.io
 
-5. How We Use the Temporary Data
+The App uses a WebSocket server hosted on Fly.io for real-time communication.
 
-The temporary in-memory data is used only for:
+The App does not use social login.
 
-Pairing two users
+## 7. Children's Privacy
 
-Delivering chat messages in real time
+Because the App allows unmonitored user-generated content, it is not intended for children under 16. We do not knowingly allow minors to use the App.
 
-Showing typing indicators
+## 8. User-Generated Content And Safety
 
-Managing the conversation state
+Because conversations are anonymous and temporary, you should not share personal details or send harmful, illegal, or inappropriate content. Misuse of the App may lead to access restriction.
 
-This data is never shared, sold, monetized, or permanently stored.
+A report option may be added to comply with Google Play policies for user safety.
 
-6. Third-Party Services
+## 9. Security
 
-The App does not use:
+We use encrypted WebSocket connections in production to protect communication between users.
 
-Analytics services
+Anonymous chat messages are not stored as regular stranger chat history. Direct messages between mutual favorites are stored in a secured database and transmitted over encrypted connections.
 
-Advertising platforms
+You can delete your direct message history with a favorite by removing that person from your favorites.
 
-User tracking
+## 10. Changes To This Policy
 
-Social login
+We may update this Privacy Policy as needed. The "Last updated" date will indicate the newest version.
 
-Crashlytics or error reporting tools that collect personal data
-
-Only the WebSocket server (hosted on Azure or other cloud provider) is used for real-time communication.
-
-7. Children’s Privacy
-
-Because the App allows unmonitored user-generated content, it is not intended for children under 16.
-We do not knowingly allow minors to use the App.
-
-8. User-Generated Content & Safety
-
-Because conversations are anonymous and temporary:
-
-You should not share personal details
-
-You should not send harmful, illegal, or inappropriate content
-
-Misuse of the App may lead to access restriction
-
-A “Report” option may be added to comply with Google Play policies for user safety.
-
-9. Security
-
-We use encrypted WebSocket (WSS) connections in production to protect communication between users.
-
-Even though messages are not stored, transmission is secured during the session.
-
-10. Changes to This Policy
-
-We may update this Privacy Policy as needed.
-The “Last updated” date will always indicate the newest version.
-
-11. Contact
+## 11. Contact
 
 If you have questions about this Privacy Policy, contact:
 
